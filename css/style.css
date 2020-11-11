@@ -1,0 +1,61 @@
+p {
+font-family: 'Oswald', sans-serif;
+margin-top: 0px;
+}
+
+h1 {
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+color: #E52464;
+font-weight: lighter;
+font-size: 50pt;
+}
+
+h2 {
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 30pt;
+}
+
+h3 {
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+color: white;
+font-weight: normal;
+}
+
+h4 {
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+color: #E52464;
+font-weight: lighter;
+}
+
+h5 {
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+font-weight: normal;
+}
+
+h6 {
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+color: black;
+font-size: 24pt;
+font-weight: lighter;
+}
+
+/* Spacing between all headers*/
+h1, h2, h3, h4, h5, h6{
+margin-top:20px;
+margin-bottom:10px;
+}
+
+.link:hover{
+color: #E52464;
+}
+
+.whiteText {
+color: white;
+}
