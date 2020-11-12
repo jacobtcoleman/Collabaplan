@@ -48,8 +48,8 @@ font-weight: lighter;
 
 /* Spacing between all headers*/
 h1, h2, h3, h4, h5, h6{
-margin-top:20px;
-margin-bottom:10px;
+margin-top:2vh;
+margin-bottom:1vh;
 }
 
 .link:hover{
