@@ -64,6 +64,10 @@ color: white;
 color: #E52464;
 }
 
+.navbar {
+    margin-left: 1vw;
+}
+
 .navbar-nav li {
 font-family: 'Oswald', sans-serif;
 text-transform: uppercase;
@@ -76,18 +80,23 @@ color: #E52464;
 
 main {
 display: grid;
-grid-template-rows: 20vh 20vh;
+grid-template-rows: 10vh 10vh 20vh;
 grid-template-columns: 50vw 50vw;
 grid-template-areas: 
-"titleArea"
+"titleArea titleArea"
 "topLeft topRight"
 }
 
 .title {
 background-color: #E52464;
-height: 9vh;
 width: 100%;
+grid-area: titleArea;
+text-align: left;
 } 
+
+.container {
+
+}
 
 /* Fly out button on the side*/
 .sidenav a {
@@ -111,7 +120,7 @@ background-color: #0093D5;
 }
 
 #proto{
-top: 71vh;
+margin-top: 10vh;
 }
 
 .button {
@@ -154,7 +163,16 @@ color: white;
 
 .introText {
 margin-top:  5vh;
-margin-left: 1vw;
+margin-left: 2vw;
 margin-right: 5vw;
 margin-bottom: auto;
+}
+/*
+.leftMargin {
+    margin-left: 1vh;
+}*/
+
+.title h2 {
+   margin-left: 2vw; 
+   text-align: left;
 }
