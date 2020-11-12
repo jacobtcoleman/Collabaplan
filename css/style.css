@@ -61,7 +61,7 @@ color: white;
 }
 
 .pinkText {
-    color: #E52464;
+color: #E52464;
 }
 
 .navbar-nav li {
@@ -69,7 +69,7 @@ font-family: 'Oswald', sans-serif;
 text-transform: uppercase;
 }
 
-/* Can't seem to get hover color to change*/
+/* Can't seem to get nav item hover color to change*/
 .nav-link:hover {
 color: #E52464;
 }
@@ -85,9 +85,34 @@ grid-template-areas:
 
 .title {
 background-color: #E52464;
-height: 20vh;
+height: 9vh;
 width: 100%;
 } 
+
+/* Fly out button on the side*/
+.sidenav a {
+position: absolute; /* Position them relative to the browser window */
+left: -290px; /* Position them outside of the screen */
+transition: 0.3s; /* Add transition on hover */
+padding: 20px; /* 15px padding */
+width: 400px; /* Set a specific width */
+text-decoration: none; /* Remove underline */
+font-size: 20px; /* Increase font size */
+font-family: 'Oswald', sans-serif;
+color: white; /* White text color */
+border-radius: 0 10px 10px 0; /* Rounded corners on the top right and bottom right side */
+text-align: right;
+background-color: #E52464;
+}
+
+.sidenav a:hover {
+left: 0; /* On mouse-over, make the elements appear as they should */
+background-color: #0093D5;
+}
+
+#proto{
+top: 71vh;
+}
 
 .button {
 background-color: white;
