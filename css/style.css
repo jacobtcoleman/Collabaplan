@@ -59,3 +59,77 @@ color: #E52464;
 .whiteText {
 color: white;
 }
+
+.pinkText {
+    color: #E52464;
+}
+
+.navbar-nav li {
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+}
+
+/* Can't seem to get hover color to change*/
+.nav-link:hover {
+color: #E52464;
+}
+
+main {
+display: grid;
+grid-template-rows: 20vh 20vh;
+grid-template-columns: 50vw 50vw;
+grid-template-areas: 
+"titleArea"
+"topLeft topRight"
+}
+
+.title {
+background-color: #E52464;
+height: 20vh;
+width: 100%;
+} 
+
+.button {
+background-color: white;
+border: none;
+color: white;
+font-family: 'Oswald', sans-serif;
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+margin: 4px 2px;
+transition-duration: 0.3s;
+cursor: pointer;
+border-radius: 10px;
+}
+
+.button1 {
+background-color: #E52464;
+color: white;
+border: 2px solid white;
+}
+
+.button1:hover {
+background-color: white;
+color: #E52464;
+}
+
+.button2 {
+background-color: white;
+color: #E52464;
+border: 2px solid #E52464;
+}
+
+.button2:hover {
+background-color: #E52464;
+color: white;
+}
+
+.introText {
+margin-top:  5vh;
+margin-left: 1vw;
+margin-right: 5vw;
+margin-bottom: auto;
+}
