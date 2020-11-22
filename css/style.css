@@ -292,11 +292,11 @@ grid-area: center8Area;
 }
 
 .conclusionL {
-    grid-area: conclusionLArea;
+grid-area: conclusionLArea;
 }
 
 .conclusionR {
-    grid-area: conclusionRArea;
+grid-area: conclusionRArea;
 }
 
 
@@ -322,8 +322,16 @@ left: 0; /* On mouse-over, make the elements appear as they should */
 background-color: #0093D5;
 }
 
-#proto{
+#proto {
 margin-top: 10vh;
+}
+
+#miro {
+margin-top: 20vh;
+}
+
+#slides {
+margin-top: 30vh;   
 }
 
 
@@ -426,7 +434,7 @@ width: 50%;
 }
 
 .width40 {
-    width: 40vw;
+width: 40vw;
 }
 
 .topitoff{
