@@ -128,6 +128,13 @@ grid-template-areas:
 "prototyping3LeftArea prototyping3RightArea"
 "center6Area center6Area"
 "prototyping4LeftArea prototyping4RightArea"
+"testing1Area testing1Area"
+"testing2LArea testing2RArea"
+"center7Area center7Area"
+"testing3Area testing3Area"
+"testing4LArea testing4RArea"
+"center8Area center8Area"
+"conclusionLArea conclusionRArea"
 ;}
 
 
@@ -250,6 +257,46 @@ grid-area: center5Area;
 .center6 {
 grid-area: center6Area;
 margin-top: 5vh;
+}
+
+.testing1 {
+grid-area: testing1Area;
+}
+
+.testing2L { 
+grid-area: testing2LArea;
+}
+
+.testing2R {
+grid-area: testing2RArea;
+}
+
+.center7 {
+grid-area: center7Area;
+}
+
+.testing3 {
+grid-area: testing3Area;
+}
+
+.testing4L {
+grid-area: testing4LArea;
+}
+
+.testing4R {
+grid-area: testing4RArea;
+}
+
+.center8 {
+grid-area: center8Area;
+}
+
+.conclusionL {
+    grid-area: conclusionLArea;
+}
+
+.conclusionR {
+    grid-area: conclusionRArea;
 }
 
 
@@ -378,6 +425,14 @@ align-items: center;
 width: 50%;
 }
 
+.width40 {
+    width: 40vw;
+}
+
 .topitoff{
 margin-top: 5vh;
+}
+
+.basicPadding {
+padding: 5%;
 }
